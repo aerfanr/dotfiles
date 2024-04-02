@@ -12,3 +12,8 @@ end
 
 # Set locale
 set -x LANG en_US.UTF-8
+
+starship init fish | source
+
+# opam configuration
+source /home/erfan/.opam/opam-init/init.fish > /dev/null 2> /dev/null; or true

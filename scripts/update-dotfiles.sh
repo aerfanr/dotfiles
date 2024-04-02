@@ -13,6 +13,7 @@ cp -r ~/.config/fish ./.config/fish
 
 cp -r ~/.config/hypr ./.config/hypr
 cp -r ~/.config/waybar ./.config/waybar
+cp -r ~/.config/btop ./.config/btop
 
 cp -r ~/scripts ./
 
