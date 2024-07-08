@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 increase () {
 	wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ --limit 1

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 increase () {
 	brightnessctl set 5%+

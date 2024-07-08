@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 sleep 3
 killall -e xdg-desktop-portal-hyprland
 killall -e xdg-desktop-portal-wlr

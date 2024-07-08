@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 systemctl --user restart pipewire
 systemctl restart bluetooth

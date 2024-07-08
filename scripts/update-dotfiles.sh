@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 
 DOTFILES_PATH=~/temp/dotfiles
@@ -16,5 +16,9 @@ cp -r ~/.config/waybar ./.config/waybar
 cp -r ~/.config/btop ./.config/btop
 
 cp -r ~/scripts ./
+
+mkdir -p ./root-etc/nixos/custom
+cp /etc/nixos/configuration.nix ./root-etc/nixos/
+cp -r /etc/nixos/custom ./root-etc/nixos/custom
 
 echo "Done! Commit stuff manually please..."

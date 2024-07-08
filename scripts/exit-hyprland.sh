@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 poweroff() {
 	local answer=$(kdialog --radiolist 'What are you going to do?' \
 		'shutdown' 'Shutdown' on \
@@ -13,7 +13,7 @@ poweroff() {
 		'reboot')
 			sleep 1; reboot ;;
 		'suspend')
-			sleep 1; swaylock -f && systemctl suspend;;
+			sleep 1; systemctl suspend;;
 		'exit')
 			sleep 1; hyprctl dispatch exit ;;
 		*)
